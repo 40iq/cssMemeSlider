@@ -77,12 +77,7 @@ body {
     background-color: rgb(116, 177, 235);
     border: 0.4vh solid rgb(116, 177, 235);
 }
-.radio-label:focus .radio-span {
-    transition: 1s;
-    background-color: black;
-    border: 0.4vh solid rgb(116, 177, 235);
-}
-.radio-input:focus ~ .radio-span {
+.radio-label:active .radio-span {
     transition: 1s;
     background-color: black;
     border: 0.4vh solid rgb(116, 177, 235);
