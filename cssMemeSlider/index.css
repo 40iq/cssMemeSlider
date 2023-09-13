@@ -128,11 +128,33 @@ body {
 @media (max-width: 750px) {
     .container {
         margin: 3vh auto;
+        width: 80vw;
     }
+    .under-slider-container {
+        width: 70vw;
+    }
+    .img-meme {
+        width: 70vw;
+    }    
     .under-slider-container {
         flex-direction: column-reverse;
     }
     .text-meme {
         max-height: 5rem;
+    }
+    .container:has(#first-input:checked) .slider-wrapper {
+        transform: translateX(0);
+    }
+    .container:has(#second-input:checked) .slider-wrapper {
+        transform: translateX(-75vw);
+    }
+    .container:has(#third-input:checked) .slider-wrapper {
+        transform: translateX(-150vw);
+    }
+    .container:has(#fourth-input:checked) .slider-wrapper {
+        transform: translateX(-225vw);
+    }
+    .container:has(#fifth-input:checked) .slider-wrapper {
+        transform: translateX(-300vw);
     }
 }
