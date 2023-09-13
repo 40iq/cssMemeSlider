@@ -1,0 +1,24 @@
+body {
+    background-color: grey;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin: 2rem auto;
+    width: 52rem;
+    background-color: azure;
+    border-radius: 1rem;
+}
+.slider-wrapper {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+.slider-wrapper img {
+    border-radius: 1rem;
+}
+.text-wrapper {
+
+}
