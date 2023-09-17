@@ -41,6 +41,7 @@ body {
 }
 .text-meme {
     display: none;
+    align-self: flex-start;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -127,7 +128,7 @@ body {
 }
 @media (max-width: 750px) {
     .container {
-        margin: 3vh auto;
+        margin: 10vh auto;
         width: 80vw;
     }
     .under-slider-container {
@@ -135,6 +136,7 @@ body {
     }
     .img-meme {
         width: 70vw;
+        height: 50vh;
     }    
     .under-slider-container {
         flex-direction: column-reverse;
